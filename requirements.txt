@@ -1,0 +1,7 @@
+torch
+transformers
+sentencepiece
+tiktoken
+scikit-learn
+fastapi
+uvicorn[standard]
