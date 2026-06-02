@@ -4,7 +4,8 @@ TF-IDF instead of a dense embedding model on purpose: the example bank is a
 few dozen short, template-like NL questions, not free-form prose, so a
 sparse lexical match on the question text is enough to find structurally
 similar examples (same aggregation, same filter shape) -- and it needs no
-model download or GPU, which matters for an MVP that has to run anywhere.
+model download or GPU, which matters for a project meant to run anywhere
+without setup friction.
 """
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity

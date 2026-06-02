@@ -15,7 +15,7 @@ from generation import STRATEGIES
 if not DB_PATH.exists():
     build_db()
 
-app = FastAPI(title="llm-app-mvp: NL to SQL")
+app = FastAPI(title="Rosette: NL to SQL")
 
 DEFAULT_STRATEGY = "fine_tuned"
 

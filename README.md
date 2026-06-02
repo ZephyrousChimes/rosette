@@ -1,4 +1,4 @@
-# llm-app-mvp
+# Rosette
 
 Natural-language-to-SQL assistant over a toy e-commerce database, with an
 execution-accuracy eval harness comparing three strategies head to head --
